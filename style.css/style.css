@@ -1,0 +1,79 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fff0f5;
+  color: #333;
+}
+
+header {
+  background: #d63384;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  color: #d63384;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.galerija {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.proizvod {
+  width: 200px;
+  text-align: center;
+}
+
+.proizvod img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #d63384;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+footer {
+  background: #333;
+  color: pink;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
